@@ -7,22 +7,14 @@ module.exports = {
 
   nodes: [
     {
-      host: "your-lavalink-host.com", // Your lavalink host address 
-      password: "your-password", // Your lavalink password
-      port: 2333, // Your lavalink port
+      host: "http://us9.endercloud.in/", // Your lavalink host address 
+      password: "Mrjohnny", // Your lavalink password
+      port: 6546, // Your lavalink port
       identifier: "Node", // Name for your lavalink
       secure: false, // set to true if your lavalink has SSL
       reconnectTimeout: 300000,
       reconnectTries: 100,
     },
-    {
-      host: "",  
-      password: "", 
-      port: 0, 
-      identifier: "",
-      secure: false,
-      reconnectTimeout: 300000,
-      reconnectTries: 100,
-    },
+
   ],
 };
